@@ -26,6 +26,11 @@ pip install -r requirements.txt
 python run.py
 ```
 
+## Attention
+
+<p>GUI默认为深色模式，你也可以通过在run.py的import中修改main_ui_dark为main_ui_light来让程序调整为浅色模式。</p>
+<p>The GUI defaults to dark mode, you can also make the program adjust to light mode by changing main_ui_dark to main_ui_light in the import of run.py.</p>
+
 ## Reference
 <p><a href="https://github.com/ultralytics/yolov5">ultralytics/yolov5</a></p>
 <p><a href="https://github.com/Javacr/PyQt5-YOLOv5">Javacr/PyQt5-YOLOv5</a></p>
