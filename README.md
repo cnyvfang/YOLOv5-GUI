@@ -1,6 +1,8 @@
 # YOLOv5-GUI
 🎉YOLOv5算法(ver.6及ver.5)的Qt-GUI实现🎉Qt-GUI implementation of the YOLOv5 algorithm (ver.6 and ver.5). 
 
+<p>提供深色浅色两个UI Provides dark and light UI</p>
+
 ![image](https://github.com/cnyvfang/YOLOv5-GUI/blob/master/demo.png) 
 
 
