@@ -76,10 +76,8 @@ class DetThread(QThread):
 
         # Dataloader
         if self.source.isnumeric():
-            view_img = check_imshow()
             cudnn.benchmark = True  # set True to speed up constant image size inference
             dataset = LoadWebcam(self.source, img_size=imgsz, stride=stride)
-            bs = len(dataset)  # batch_size
         else:
             dataset = LoadImages(self.source, img_size=imgsz, stride=stride)
 
